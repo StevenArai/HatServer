@@ -10,7 +10,6 @@ namespace hatserver.Pages
     {
         public string? RequestId { get; set; }
 
-        public int os = 0x03;
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
         private readonly ILogger<ErrorModel> _logger;
